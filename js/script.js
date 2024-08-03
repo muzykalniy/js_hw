@@ -32,7 +32,7 @@ console.log(isAdult(numericAge));
 
 
 /* С объявлением конкретной переменной
-const numericAge = 27;
+let numericAge = 27;
 const isAdult = numericAge >= 18 ? 'True' : 'False';
 console.log(isAdult);
 */
