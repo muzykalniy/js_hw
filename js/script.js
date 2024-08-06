@@ -7,7 +7,7 @@ const minutesNumber = hoursNumber * 60;
 const secondsNumber = hoursNumber * 3600;
 
 
-alert(`${hoursNumber} hours consist of ${minutesNumber} minutes which are ${secondsNumber} seconds`);
+alert(`${hoursNumber} hours consist of: ${minutesNumber} minutes \n\nwhich are: ${secondsNumber} seconds`);
 
 
 
