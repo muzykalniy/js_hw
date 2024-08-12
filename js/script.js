@@ -1,6 +1,6 @@
 'use strict';
 
-const hoursNumber = +prompt('Please enter an hours number');
+const hoursNumber = +prompt('Please enter an hours number:');
 
 
 const minutesNumber = hoursNumber * 60;
