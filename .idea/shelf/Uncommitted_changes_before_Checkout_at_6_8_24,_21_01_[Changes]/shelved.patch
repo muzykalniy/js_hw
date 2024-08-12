@@ -1,0 +1,19 @@
+Index: js/script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>'use strict';\n\n// Task #1\n\nconst name  = prompt('Enter your name');\nconst age = prompt('Enter your age');\nconst likesProgramming = confirm('Do you like programming?');\n\n// Task #2\nconsole.log(name, typeof name);\nconsole.log(age, typeof age);\nconsole.log(likesProgramming, typeof likesProgramming);\n\n// Task #3\nconst greeting = `Hello, ${name}`;\nalert(greeting);\n\n// Task #4\nconst numericAge = Number(age);\nconst nextAge = numericAge + 1;\nconsole.log(nextAge);\n\n// Task #5\n\n// Стрелочная с тернарным оператором\nconst isAdult = (age) => age >= 18 ? 'True' : 'False';\nconsole.log(isAdult(numericAge));\n\n\n\n\n\n\n/* С объявлением конкретной переменной\nlet numericAge = 27;\nconst isAdult = numericAge >= 18 ? 'True' : 'False';\nconsole.log(isAdult);\n*/\n\n\n/* Обычная функция с тернарным оператором\nfunction isAdult(age) {\n\treturn age >=18 ? 'True' : 'False';\n}\nconsole.log(isAdult(numericAge));\n*/\n\n/* Обычная функция с условиями\nfunction isAdult(age) {\n   if (age >=18) {\n\t   return 'True';\n   }\n   else {\n\t   return 'False';\n   }\n}\nconsole.log(isAdult(numericAge));\n*/\n\n\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/js/script.js b/js/script.js
+--- a/js/script.js	
++++ b/js/script.js	
+@@ -20,7 +20,7 @@
+ const nextAge = numericAge + 1;
+ console.log(nextAge);
+ 
+-// Task #5
++// Task #5,
+ 
+ // Стрелочная с тернарным оператором
+ const isAdult = (age) => age >= 18 ? 'True' : 'False';

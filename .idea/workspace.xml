@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6322550d-002b-4694-a7de-90f63e34eb34" name="Changes" comment="H7 completed">
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;muzykalniy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/muzykalniy/js_hw.git&quot;,
+    &quot;accountId&quot;: &quot;b67f0652-4f14-4ad6-aadd-bedd288a188f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2k0TUzomWJF1XcvWoLdyhlYWQKO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Node.js.script.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "hw__10",
+    "last_opened_file_path": "/Users/muzykalniy/Documents/Frontend learning/FE Pro Hillel/js_hw",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js_hw/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/script.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.script.js" />
+        <item itemvalue="Node.js.script.js" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.script.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6322550d-002b-4694-a7de-90f63e34eb34" name="Changes" comment="" />
+      <created>1722419513203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722419513203</updated>
+      <workItem from="1722419514326" duration="8232000" />
+      <workItem from="1722509472166" duration="316000" />
+      <workItem from="1722681440825" duration="7000" />
+      <workItem from="1722681472609" duration="6752000" />
+      <workItem from="1722794636146" duration="227000" />
+      <workItem from="1722970817846" duration="3239000" />
+      <workItem from="1723462725968" duration="134000" />
+      <workItem from="1723463325077" duration="171000" />
+      <workItem from="1723463655011" duration="85000" />
+      <workItem from="1723468488003" duration="142000" />
+      <workItem from="1723468640916" duration="15706000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1722419682883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722419682883</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1722419902120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722419902120</updated>
+    </task>
+    <task id="LOCAL-00003" summary="H1 completed">
+      <option name="closed" value="true" />
+      <created>1722420763663</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722420763663</updated>
+    </task>
+    <task id="LOCAL-00004" summary="H2 completed">
+      <option name="closed" value="true" />
+      <created>1722424207766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722424207766</updated>
+    </task>
+    <task id="LOCAL-00005" summary="H3 completed">
+      <option name="closed" value="true" />
+      <created>1722426606568</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722426606568</updated>
+    </task>
+    <task id="LOCAL-00006" summary="H3 fix completed">
+      <option name="closed" value="true" />
+      <created>1722509563651</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722509563651</updated>
+    </task>
+    <task id="LOCAL-00007" summary="H6 completed">
+      <option name="closed" value="true" />
+      <created>1722687585370</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722687585370</updated>
+    </task>
+    <task id="LOCAL-00008" summary="H6 completed">
+      <option name="closed" value="true" />
+      <created>1722687729888</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722687729888</updated>
+    </task>
+    <task id="LOCAL-00009" summary="H8 completed">
+      <option name="closed" value="true" />
+      <created>1722971940498</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722971940498</updated>
+    </task>
+    <task id="LOCAL-00010" summary="H7 completed">
+      <option name="closed" value="true" />
+      <created>1722973395546</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722973395546</updated>
+    </task>
+    <task id="LOCAL-00011" summary="H7 completed">
+      <option name="closed" value="true" />
+      <created>1722973995483</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722973995483</updated>
+    </task>
+    <task id="LOCAL-00012" summary="H7 completed">
+      <option name="closed" value="true" />
+      <created>1723462741155</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723462741156</updated>
+    </task>
+    <task id="LOCAL-00013" summary="H7 completed">
+      <option name="closed" value="true" />
+      <created>1723462772641</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723462772641</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="update" />
+    <MESSAGE value="H1 completed" />
+    <MESSAGE value="H2 completed" />
+    <MESSAGE value="H3 completed" />
+    <MESSAGE value="H3 fix completed" />
+    <MESSAGE value="H6 completed" />
+    <MESSAGE value="H8 completed" />
+    <MESSAGE value="H7 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="H7 completed" />
+  </component>
+</project>
