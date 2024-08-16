@@ -1,4 +1,4 @@
 'use strict';
 
-const test = prompt('test');
+const test = prompt('Test');
 console.log(test);
