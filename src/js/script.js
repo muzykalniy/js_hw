@@ -2,7 +2,7 @@
 
 // padLeft we add symbols to the left but with "false" - change to the right
 const padString = function (str, length, char = ' ', padLeft = false) {
-  // Перевірка аргументів
+  // Check the arguments
   if (typeof str !== 'string' || typeof length !== 'number' || typeof char !== 'string' || typeof padLeft !== 'boolean') {
     return 'some error: invalid type of argument';
   }
@@ -41,4 +41,5 @@ console.log(padString('hello', 2)); // 'he'
 
 
 
-
+console.log(padString('hello', 'hello', '*'));
+console.log(padString('hello', -1, '*'));
