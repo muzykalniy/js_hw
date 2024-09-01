@@ -16,8 +16,6 @@ const exponentiation = function (num1, num2) {
   return alert(`${num1} to the power of ${num2} is ${numPower}`);
 };
 
-
-
 // Додаткові завдання
 // 1
 const multiply = function (num1, num2) {
