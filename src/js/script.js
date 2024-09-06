@@ -64,6 +64,16 @@ const balanceCondition = users.filter((user) => {
 });
 console.log(balanceCondition);
 
+
+const result = balanceCondition.map((user) => {
+  const numericBalance = parseFloat(user.balance.replace(/[$,]/g, ''));
+  return {
+    phone: user.phone,
+    balance: numericBalance,
+  };
+});
+
+console.log(result);
 const sumBalance = balanceCondition.reduce((sum, user) => {
   const numericBalance = parseFloat(user.balance.replace(/[$,]/g, ''));
   return sum + numericBalance;
