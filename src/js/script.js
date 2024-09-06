@@ -72,8 +72,8 @@ const result = balanceCondition.map((user) => {
     balance: numericBalance,
   };
 });
-
 console.log(result);
+
 const sumBalance = balanceCondition.reduce((sum, user) => {
   const numericBalance = parseFloat(user.balance.replace(/[$,]/g, ''));
   return sum + numericBalance;
