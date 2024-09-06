@@ -74,12 +74,12 @@ const result = balanceCondition.map((user) => {
 });
 console.log(result);
 
-const sumBalance = balanceCondition.reduce((sum, user) => {
+const sumBalance = users.reduce((sum, user) => {
   const numericBalance = parseFloat(user.balance.replace(/[$,]/g, ''));
   return sum + numericBalance;
 }, 0);
 
-console.log('Users balance >2000 sum:', sumBalance.toFixed(2));
+console.log('Users balance sum:', sumBalance.toFixed(2));
 
 
 
