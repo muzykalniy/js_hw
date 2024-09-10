@@ -1,0 +1,98 @@
+Index: src/js/script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>'use strict';\n\n\n\n\n\n\n
+===================================================================
+diff --git a/src/js/script.js b/src/js/script.js
+--- a/src/js/script.js	
++++ b/src/js/script.js	
+@@ -4,4 +4,3 @@
+ 
+ 
+ 
+-
+Index: .prettierignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Ignore artifacts:\nbuild\ncoverage\n.idea\nnode modules\n.vscode\n**/*.js
+===================================================================
+diff --git a/.prettierignore b/.prettierignore
+--- a/.prettierignore	
++++ b/.prettierignore	
+@@ -4,4 +4,4 @@
+ .idea
+ node modules
+ .vscode
+-**/*.js
+\ No newline at end of file
++**/*.js
+Index: .idea/codeStyles/Project.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"ProjectCodeStyleConfiguration\">\n  <code_scheme name=\"Project\" version=\"173\">\n    <HTMLCodeStyleSettings>\n      <option name=\"HTML_SPACE_INSIDE_EMPTY_TAG\" value=\"true\" />\n    </HTMLCodeStyleSettings>\n    <JSCodeStyleSettings version=\"0\">\n      <option name=\"USE_SEMICOLON_AFTER_STATEMENT\" value=\"false\" />\n      <option name=\"FORCE_SEMICOLON_STYLE\" value=\"true\" />\n      <option name=\"SPACE_BEFORE_FUNCTION_LEFT_PARENTH\" value=\"false\" />\n      <option name=\"USE_DOUBLE_QUOTES\" value=\"false\" />\n      <option name=\"FORCE_QUOTE_STYlE\" value=\"true\" />\n      <option name=\"ENFORCE_TRAILING_COMMA\" value=\"WhenMultiline\" />\n      <option name=\"SPACES_WITHIN_OBJECT_LITERAL_BRACES\" value=\"true\" />\n      <option name=\"SPACES_WITHIN_IMPORTS\" value=\"true\" />\n    </JSCodeStyleSettings>\n    <TypeScriptCodeStyleSettings version=\"0\">\n      <option name=\"USE_SEMICOLON_AFTER_STATEMENT\" value=\"false\" />\n      <option name=\"FORCE_SEMICOLON_STYLE\" value=\"true\" />\n      <option name=\"SPACE_BEFORE_FUNCTION_LEFT_PARENTH\" value=\"false\" />\n      <option name=\"USE_DOUBLE_QUOTES\" value=\"false\" />\n      <option name=\"FORCE_QUOTE_STYlE\" value=\"true\" />\n      <option name=\"ENFORCE_TRAILING_COMMA\" value=\"WhenMultiline\" />\n      <option name=\"SPACES_WITHIN_OBJECT_LITERAL_BRACES\" value=\"true\" />\n      <option name=\"SPACES_WITHIN_IMPORTS\" value=\"true\" />\n    </TypeScriptCodeStyleSettings>\n    <VueCodeStyleSettings>\n      <option name=\"INTERPOLATION_NEW_LINE_AFTER_START_DELIMITER\" value=\"false\" />\n      <option name=\"INTERPOLATION_NEW_LINE_BEFORE_END_DELIMITER\" value=\"false\" />\n    </VueCodeStyleSettings>\n    <codeStyleSettings language=\"HTML\">\n      <option name=\"SOFT_MARGINS\" value=\"80\" />\n      <indentOptions>\n        <option name=\"CONTINUATION_INDENT_SIZE\" value=\"4\" />\n        <option name=\"SMART_TABS\" value=\"true\" />\n      </indentOptions>\n    </codeStyleSettings>\n    <codeStyleSettings language=\"JavaScript\">\n      <option name=\"SOFT_MARGINS\" value=\"80\" />\n      <indentOptions>\n        <option name=\"SMART_TABS\" value=\"true\" />\n      </indentOptions>\n    </codeStyleSettings>\n    <codeStyleSettings language=\"TypeScript\">\n      <option name=\"SOFT_MARGINS\" value=\"80\" />\n    </codeStyleSettings>\n    <codeStyleSettings language=\"Vue\">\n      <option name=\"SOFT_MARGINS\" value=\"80\" />\n      <indentOptions>\n        <option name=\"INDENT_SIZE\" value=\"4\" />\n        <option name=\"TAB_SIZE\" value=\"4\" />\n      </indentOptions>\n    </codeStyleSettings>\n  </code_scheme>\n</component>
+===================================================================
+diff --git a/.idea/codeStyles/Project.xml b/.idea/codeStyles/Project.xml
+--- a/.idea/codeStyles/Project.xml	
++++ b/.idea/codeStyles/Project.xml	
+@@ -4,22 +4,18 @@
+       <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
+     </HTMLCodeStyleSettings>
+     <JSCodeStyleSettings version="0">
+-      <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
+       <option name="FORCE_SEMICOLON_STYLE" value="true" />
+       <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
+-      <option name="USE_DOUBLE_QUOTES" value="false" />
+       <option name="FORCE_QUOTE_STYlE" value="true" />
+-      <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
++      <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
+       <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
+       <option name="SPACES_WITHIN_IMPORTS" value="true" />
+     </JSCodeStyleSettings>
+     <TypeScriptCodeStyleSettings version="0">
+-      <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
+       <option name="FORCE_SEMICOLON_STYLE" value="true" />
+       <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
+-      <option name="USE_DOUBLE_QUOTES" value="false" />
+       <option name="FORCE_QUOTE_STYlE" value="true" />
+-      <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
++      <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
+       <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
+       <option name="SPACES_WITHIN_IMPORTS" value="true" />
+     </TypeScriptCodeStyleSettings>
+@@ -30,24 +26,33 @@
+     <codeStyleSettings language="HTML">
+       <option name="SOFT_MARGINS" value="80" />
+       <indentOptions>
+-        <option name="CONTINUATION_INDENT_SIZE" value="4" />
++        <option name="INDENT_SIZE" value="2" />
++        <option name="CONTINUATION_INDENT_SIZE" value="2" />
++        <option name="TAB_SIZE" value="2" />
+         <option name="SMART_TABS" value="true" />
+       </indentOptions>
+     </codeStyleSettings>
+     <codeStyleSettings language="JavaScript">
+       <option name="SOFT_MARGINS" value="80" />
+       <indentOptions>
++        <option name="INDENT_SIZE" value="2" />
++        <option name="CONTINUATION_INDENT_SIZE" value="2" />
++        <option name="TAB_SIZE" value="2" />
+         <option name="SMART_TABS" value="true" />
+       </indentOptions>
+     </codeStyleSettings>
+     <codeStyleSettings language="TypeScript">
+       <option name="SOFT_MARGINS" value="80" />
++      <indentOptions>
++        <option name="INDENT_SIZE" value="2" />
++        <option name="CONTINUATION_INDENT_SIZE" value="2" />
++        <option name="TAB_SIZE" value="2" />
++      </indentOptions>
+     </codeStyleSettings>
+     <codeStyleSettings language="Vue">
+       <option name="SOFT_MARGINS" value="80" />
+       <indentOptions>
+-        <option name="INDENT_SIZE" value="4" />
+-        <option name="TAB_SIZE" value="4" />
++        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+       </indentOptions>
+     </codeStyleSettings>
+   </code_scheme>
