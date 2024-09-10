@@ -1,7 +1,0 @@
-# Ignore artifacts:
-build
-coverage
-.idea
-node modules
-.vscode
-**/*.js
