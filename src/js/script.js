@@ -64,3 +64,45 @@ console.log(arr10);
 const arr11 = [3, 4, 1, 2, 7];
 arr11.sort((a, b) => a - b);
 console.log(arr11);
+
+// 14
+
+const arr12 = [5, 6, 7, 8, 9];
+const sum = arr12.reduce((acc, item) => acc + item, 0);
+console.log(sum);
+
+// 15 map проводит действия с каждым элементом массива и изменяет текущий или создает новый массив, что не может делать forEach
+let arr13 = [5, 6, 7, 8, 9];
+arr13 = arr13.map((item) => item ** 2);
+console.log(arr13);
+
+// 16
+const arr14 = [1, -3, 5, 6, -7, 8, 9, -11];
+const newArr14 = arr14.filter((item) => item < 0);
+console.log(newArr14);
+
+// 17
+const arr15 = [1, -3, 5, 6, -7, 8, 9, -11];
+const newArr15 = arr15.filter((item) => item > 0);
+console.log(newArr15);
+
+// 18
+const arr16 = ['aaa', 'aaaqqq', 'zzzqq', 'zz', 'qsaa', 'q', 'az'];
+const newArr16 = arr16.filter((item) => item.length > 5);
+console.log(newArr16);
+
+// 19
+const arr17 = [1, 2, [3, 4], 5, [6, 7]];
+const newArr17 = arr17.filter((itemSubArr) => itemSubArr.length > 1);
+console.log(newArr17);
+
+// 20 мы в аккум основного массива суммируем аккум подмассива который внутри себя суммирует
+const arr18 = [[1, 2, 3], [4, 5], [6]];
+const newArr18 = arr18.reduce((acc, itemArr) => acc + itemArr.reduce((accSubArr, itemSubArr) => accSubArr + itemSubArr, 0), 0);
+console.log(newArr18);
+
+// 21
+const arr19 = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
+const flattenedArr = arr19.flat(2);
+const newArr19 = flattenedArr.reduce((acc, item) => acc + item, 0);
+console.log(newArr19);
