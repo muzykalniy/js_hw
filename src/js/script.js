@@ -19,6 +19,7 @@ Math.floor() округляет это число до целого числа, 
   const randomIndex = Math.floor(Math.random() * images.length);
   // выбираю случайную картинку с массива images используя случайный индекс
   const randomImage = images[randomIndex];
+  // находит элемент на странице с id="randomImage" и устанавливает его src на случайную картинку
   document.getElementById('randomImage').src = randomImage;
 };
 randomImageFunc();
