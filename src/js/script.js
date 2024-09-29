@@ -14,11 +14,11 @@ const elementFocus = document.getElementById('input__focus');
 const elementShow = document.querySelector('.showed__div');
 
 // показываю showed__div при нажатии на инпут
-elementFocus.addEventListener('focus', (e) => {
+elementFocus.addEventListener('focus', () => {
   elementShow.style.display = 'block';
 });
 
 // тут прячу с помощью события blur
-elementFocus.addEventListener('blur', (e) => {
+elementFocus.addEventListener('blur', () => {
   elementShow.style.display = 'none';
 });
