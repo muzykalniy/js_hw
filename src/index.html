@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        .input__wrapper{
+            display: flex;
+        }
+        .input{
+            text-align: start;
+        }
+        .showed__div {
+            display: none;
+            background-color: lightblue;
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
+
+<div class="input__wrapper">
+    <div class="input">
+        <input id="input__focus"  type="text" placeholder="Enter your text" size="24" >
+    </div>
+
+</div>
 <script src="js/script.js"></script>
 </body>
 </html>
