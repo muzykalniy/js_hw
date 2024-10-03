@@ -1,14 +1,17 @@
 'use strict';
 
-let tableHTML = '';
+const table = document.createElement('table');
 let number = 1;
 
 for (let i = 0; i < 10; i++) {
-  tableHTML += '<tr>';
+  const row = document.createElement('tr');
   for (let j = 0; j < 10; j++) {
-    tableHTML += `<td>${number}</td>`;
+    const cell = document.createElement('td');
+    cell.textContent = number;
     number++;
+    row.appendChild(cell);
   }
-  tableHTML += '</tr>';
+  table.appendChild(row);
 }
-document.getElementById('myTable').innerHTML = tableHTML;
+
+document.getElementById('myTable').appendChild(table);
