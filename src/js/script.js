@@ -1,24 +1,34 @@
 'use strict';
 
-// функция для создания блока с классом внутри другого блока
-const insertElement = (wrapperClass, elementTag, elementClass) => {
-  const wrapper = document.querySelector(wrapperClass);
-  const newElement = document.createElement(elementTag);
-  newElement.classList.add(elementClass);
-  wrapper.append(newElement);
+// function to create element with class
+const createEl = (tagEl, classEl) => {
+  const createdEl = document.createElement(tagEl);
+  createdEl.classList.add(classEl);
+  return createdEl;
 };
 
-insertElement('.input__wrapper', 'div', 'showed__div');
+// function to append element
+const appendEl = (wrapperSelector = null, elementToAppend = null) => {
+  if (!wrapperSelector || !elementToAppend) return;
+  const wrapperEl = document.querySelector(wrapperSelector);
+  if (!wrapperEl) return;
+  wrapperEl.append(elementToAppend);
+};
 
-const elementFocus = document.getElementById('input__focus');
-const elementShow = document.querySelector('.showed__div');
+// function call
+const newEl = createEl('div', 'showed__div');
+appendEl('.input__wrapper', newEl);
 
-// показываю showed__div при нажатии на инпут
-elementFocus.addEventListener('focus', () => {
-  elementShow.style.display = 'block';
+
+
+const focusEl = document.getElementById('input__focus');
+const showEl = document.querySelector('.showed__div');
+
+// event to show element
+focusEl.addEventListener('focus', () => {
+  showEl.style.display = 'block';
 });
-
-// тут прячу с помощью события blur
-elementFocus.addEventListener('blur', () => {
-  elementShow.style.display = 'none';
+// event to hide element
+focusEl.addEventListener('blur', () => {
+  showEl.style.display = 'none';
 });
