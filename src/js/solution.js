@@ -50,3 +50,16 @@ getEl('ul');
 
 // 4
 
+// func to change text inside the element
+const changeText = (elWithText, textToChange) => {
+  elWithText.innerText = textToChange;
+  return elWithText;
+};
+
+const changeInnerText = () => {
+  const listElToChange = document.querySelector('ul li:last-child');
+  if (listElToChange) {
+    changeText(listElToChange, 'Привіт, мене звуть Андрiй');
+  }
+};
+changeInnerText();
