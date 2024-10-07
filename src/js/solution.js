@@ -75,3 +75,10 @@ addAttName('data-my-name', 'Андрій');
 const result = document.querySelector('ul li:first-child').getAttribute('data-my-name');
 console.log(result);
 
+// 6
+
+const removeAtt = (tag, attToRemove) => {
+  const tagSelect = document.querySelector(tag);
+  tagSelect.removeAttribute(attToRemove);
+};
+removeAtt('ul', 'data-dog-tail');
