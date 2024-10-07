@@ -63,3 +63,15 @@ const changeInnerText = () => {
   }
 };
 changeInnerText();
+
+
+// 5
+
+const addAttName = (att, attValue) => {
+  const newAtt = document.querySelector('ul li:first-child');
+  newAtt.setAttribute(att, attValue);
+};
+addAttName('data-my-name', 'Андрій');
+const result = document.querySelector('ul li:first-child').getAttribute('data-my-name');
+console.log(result);
+
